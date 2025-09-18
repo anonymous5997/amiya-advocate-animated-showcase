@@ -29,19 +29,19 @@ const Contact = () => {
               </CardHeader>
               <CardContent className="space-y-6">
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">Primary Office</h4>
+                  <h4 className="font-semibold text-foreground mb-2">Bhubaneswar Office</h4>
                   <p className="text-muted-foreground">
-                    Plot No. 123, Sector 15<br />
-                    Bhubaneswar, Odisha 751024<br />
-                    India
+                    Plot-360, Damana Square<br />
+                    Bhubaneswar - 752021<br />
+                    Odisha, India
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">Branch Office</h4>
+                  <h4 className="font-semibold text-foreground mb-2">Delhi Office</h4>
                   <p className="text-muted-foreground">
-                    Court Complex, Room 45<br />
-                    District Court, Cuttack<br />
-                    Odisha 753001, India
+                    Chamber No. 28<br />
+                    Supreme Court of India<br />
+                    New Delhi, India
                   </p>
                 </div>
               </CardContent>
@@ -57,20 +57,20 @@ const Contact = () => {
               <CardContent className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Primary:</span>
-                  <a href="tel:+919876543210" className="text-foreground hover:text-gold transition-colors">
-                    +91 98765 43210
+                  <a href="tel:+917735447208" className="text-foreground hover:text-gold transition-colors">
+                    +91 77354 47208
                   </a>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Secondary:</span>
-                  <a href="tel:+919876543211" className="text-foreground hover:text-gold transition-colors">
-                    +91 98765 43211
+                  <a href="tel:+919437147208" className="text-foreground hover:text-gold transition-colors">
+                    +91 94371 47208
                   </a>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-muted-foreground">Emergency:</span>
-                  <a href="tel:+919876543212" className="text-foreground hover:text-gold transition-colors">
-                    +91 98765 43212
+                  <span className="text-muted-foreground">WhatsApp:</span>
+                  <a href="https://wa.me/917735447208" className="text-foreground hover:text-gold transition-colors">
+                    +91 77354 47208
                   </a>
                 </div>
               </CardContent>
@@ -89,20 +89,20 @@ const Contact = () => {
               <CardContent className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">General:</span>
-                  <a href="mailto:info@akbeheralaw.com" className="text-foreground hover:text-gold transition-colors">
-                    info@akbeheralaw.com
+                  <a href="mailto:amiyakumarBehera1@gmail.com" className="text-foreground hover:text-gold transition-colors text-sm">
+                    amiyakumarBehera1@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Legal:</span>
-                  <a href="mailto:legal@akbeheralaw.com" className="text-foreground hover:text-gold transition-colors">
-                    legal@akbeheralaw.com
+                  <a href="mailto:amiyakumarBehera1@gmail.com" className="text-foreground hover:text-gold transition-colors text-sm">
+                    amiyakumarBehera1@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-muted-foreground">Emergency:</span>
-                  <a href="mailto:urgent@akbeheralaw.com" className="text-foreground hover:text-gold transition-colors">
-                    urgent@akbeheralaw.com
+                  <span className="text-muted-foreground">Urgent:</span>
+                  <a href="mailto:amiyakumarBehera1@gmail.com" className="text-foreground hover:text-gold transition-colors text-sm">
+                    amiyakumarBehera1@gmail.com
                   </a>
                 </div>
               </CardContent>
@@ -139,7 +139,7 @@ const Contact = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="flex-1 bg-gold hover:bg-gold-light text-navy font-semibold py-3 border-0 shadow-lg hover:shadow-xl transition-all duration-300">
                 <Phone className="mr-2 h-5 w-5" />
-                Call Now
+                Call +91 77354 47208
               </Button>
               <Button variant="outline" className="flex-1 border-gold text-gold hover:bg-gold/10 py-3 transition-all duration-300">
                 <Navigation className="mr-2 h-5 w-5" />

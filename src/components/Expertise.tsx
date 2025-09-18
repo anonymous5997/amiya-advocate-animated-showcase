@@ -14,51 +14,51 @@ import {
 const expertiseAreas = [
   {
     icon: Gavel,
-    title: "Criminal Law",
-    description: "Expert defense in criminal cases with a proven track record of successful outcomes",
+    title: "Civil Law",
+    description: "Comprehensive civil litigation services with expertise in property disputes, contracts, and civil rights",
+    cases: "200+ Cases"
+  },
+  {
+    icon: Heart,
+    title: "Divorce Law",
+    description: "Sensitive handling of matrimonial disputes, divorce proceedings, and family settlement matters",
     cases: "150+ Cases"
+  },
+  {
+    icon: FileText,
+    title: "138 N.I. Act",
+    description: "Expert representation in cheque bounce cases and Negotiable Instruments Act violations",
+    cases: "180+ Cases"
+  },
+  {
+    icon: Briefcase,
+    title: "Corporate & Commercial Law",
+    description: "Business legal solutions, corporate compliance, and commercial dispute resolution",
+    cases: "120+ Cases"
+  },
+  {
+    icon: Shield,
+    title: "Arbitration",
+    description: "Alternative dispute resolution through arbitration proceedings and mediation services",
+    cases: "80+ Cases"
+  },
+  {
+    icon: Gavel,
+    title: "High Court Practice",
+    description: "Extensive experience in High Court litigation across various legal domains",
+    cases: "300+ Cases"
+  },
+  {
+    icon: Users,
+    title: "Supreme Court Practice",
+    description: "Specialized practice in Supreme Court of India with chamber in New Delhi",
+    cases: "50+ Cases"
   },
   {
     icon: Home,
     title: "Property Law",
-    description: "Comprehensive property legal services including documentation and disputes",
-    cases: "200+ Cases"
-  },
-  {
-    icon: Briefcase,
-    title: "Corporate Law",
-    description: "Business legal solutions for companies of all sizes and sectors",
-    cases: "100+ Cases"
-  },
-  {
-    icon: Users,
-    title: "Family Law",
-    description: "Sensitive handling of family matters with compassion and expertise",
-    cases: "80+ Cases"
-  },
-  {
-    icon: Shield,
-    title: "Civil Rights",
-    description: "Protecting individual rights and fighting for justice in civil matters",
-    cases: "120+ Cases"
-  },
-  {
-    icon: FileText,
-    title: "Contract Law",
-    description: "Drafting, reviewing, and enforcing contracts for optimal protection",
-    cases: "300+ Cases"
-  },
-  {
-    icon: Car,
-    title: "Motor Accident Claims",
-    description: "Comprehensive support for motor vehicle accident compensation claims",
-    cases: "90+ Cases"
-  },
-  {
-    icon: Heart,
-    title: "Medical Negligence",
-    description: "Specialized representation in medical malpractice and negligence cases",
-    cases: "50+ Cases"
+    description: "Property documentation, title verification, and real estate legal services",
+    cases: "250+ Cases"
   }
 ];
 

@@ -15,7 +15,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-lg font-bold text-gold">A.K BEHERA & ASSOCIATES</h3>
-                <p className="text-xs text-muted-foreground">Excellence in Legal Practice</p>
+                <p className="text-xs text-muted-foreground">Advocate & Solicitors</p>
               </div>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -38,9 +38,9 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-foreground font-semibold">Contact Info</h4>
             <div className="space-y-2 text-sm">
-              <p className="text-muted-foreground">Bhubaneswar, Odisha</p>
-              <p className="text-muted-foreground">+91 98765 43210</p>
-              <p className="text-muted-foreground">info@akbeheralaw.com</p>
+              <p className="text-muted-foreground">Bhubaneswar & Delhi</p>
+              <p className="text-muted-foreground">+91 77354 47208</p>
+              <p className="text-muted-foreground">amiyakumarBehera1@gmail.com</p>
             </div>
           </div>
         </div>

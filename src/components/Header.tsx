@@ -11,7 +11,7 @@ const Header = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-gold">A.K BEHERA & ASSOCIATES</h1>
-              <p className="text-xs text-muted-foreground">Legal Excellence Since 2009</p>
+              <p className="text-xs text-muted-foreground">Advocate & Solicitors</p>
             </div>
           </div>
           <nav className="hidden md:flex space-x-8">
