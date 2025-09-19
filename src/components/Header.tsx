@@ -1,4 +1,5 @@
 import { Scale } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   return (
@@ -7,10 +8,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="p-2 bg-gold/10 rounded-lg">
-              <Scale className="h-8 w-8 text-gold" />
+              <img src={logo} alt="Legal Logo" className="h-8 w-8" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gold">AK</h1>
+              <h1 className="text-xl font-bold text-gold">A.K BEHERA & ASSOCIATES</h1>
               <p className="text-xs text-muted-foreground">Advocate & Solicitors</p>
             </div>
           </div>
