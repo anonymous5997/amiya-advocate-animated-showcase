@@ -7,54 +7,54 @@
 
 @layer base {
   :root {
-    /* Modern Professional Color Palette */
-    --background: 210 20% 6%;
-    --foreground: 210 10% 98%;
+    /* Navy Blue and White Professional Theme */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
 
-    --card: 210 15% 10%;
-    --card-foreground: 210 10% 95%;
+    --card: 0 0% 98%;
+    --card-foreground: 222 47% 11%;
 
-    --popover: 210 20% 8%;
-    --popover-foreground: 210 10% 95%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
 
-    --primary: 210 25% 12%;
-    --primary-foreground: 210 10% 98%;
+    --primary: 222 47% 11%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 27 96% 61%;
-    --secondary-foreground: 210 25% 12%;
+    --secondary: 210 40% 98%;
+    --secondary-foreground: 222 47% 11%;
 
-    --muted: 210 15% 18%;
-    --muted-foreground: 210 10% 65%;
+    --muted: 210 40% 95%;
+    --muted-foreground: 215 16% 47%;
 
-    --accent: 27 96% 61%;
-    --accent-foreground: 210 25% 12%;
+    --accent: 210 40% 98%;
+    --accent-foreground: 222 47% 11%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 210 15% 22%;
-    --input: 210 15% 18%;
-    --ring: 27 96% 61%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 222 47% 11%;
 
     --radius: 0.75rem;
 
-    /* Modern Legal Theme Colors */
-    --gold: 27 96% 61%;
-    --gold-light: 27 100% 70%;
-    --gold-dark: 27 90% 45%;
-    --navy: 210 30% 8%;
-    --navy-light: 210 25% 15%;
-    --navy-dark: 210 35% 5%;
+    /* Navy Blue Theme Colors */
+    --gold: 222 47% 11%;
+    --gold-light: 215 28% 17%;
+    --gold-dark: 222 84% 5%;
+    --navy: 222 47% 11%;
+    --navy-light: 215 28% 17%;
+    --navy-dark: 222 84% 5%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--navy-dark)), hsl(var(--navy)));
-    --gradient-gold: linear-gradient(135deg, hsl(var(--gold-dark)), hsl(var(--gold)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--navy)), hsl(var(--navy-light)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--navy-dark)), hsl(var(--navy)));
     --gradient-section: linear-gradient(180deg, hsl(var(--background)), hsl(var(--navy-light)));
 
     /* Shadows */
-    --shadow-elegant: 0 20px 40px -12px hsl(var(--gold) / 0.25);
-    --shadow-gold: 0 0 30px hsl(var(--gold) / 0.3);
-    --shadow-card: 0 10px 30px -8px hsl(220 25% 5% / 0.4);
+    --shadow-elegant: 0 20px 40px -12px hsl(var(--navy) / 0.15);
+    --shadow-gold: 0 0 30px hsl(var(--navy) / 0.2);
+    --shadow-card: 0 10px 30px -8px hsl(var(--navy) / 0.1);
 
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -78,41 +78,41 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 222 47% 11%;
+    --foreground: 0 0% 98%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 222 84% 5%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 222 47% 11%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 215 28% 17%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 215 28% 17%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 215 28% 17%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 215 28% 17%;
+    --input: 215 28% 17%;
+    --ring: 0 0% 98%;
+
+    /* Dark Navy Theme Colors */
+    --gold: 0 0% 98%;
+    --gold-light: 210 40% 98%;
+    --gold-dark: 215 20% 65%;
+    --navy: 222 47% 11%;
+    --navy-light: 215 28% 17%;
+    --navy-dark: 222 84% 5%;
   }
 }
 
@@ -123,7 +123,7 @@
 
   body {
     @apply bg-background text-foreground font-inter antialiased;
-    background: var(--gradient-hero);
+    background: linear-gradient(135deg, hsl(0 0% 100%), hsl(210 40% 98%));
     min-height: 100vh;
   }
 
@@ -158,17 +158,17 @@
     @apply opacity-100 translate-x-0;
   }
 
-  /* Gold Gradient Text */
+  /* Navy Blue Gradient Text */
   .text-gradient-gold {
-    background: var(--gradient-gold);
+    background: linear-gradient(135deg, hsl(var(--navy-dark)), hsl(var(--navy)));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
-  /* Glowing Effect */
+  /* Navy Blue Glow Effect */
   .glow-gold {
-    box-shadow: var(--shadow-gold);
+    box-shadow: 0 0 30px hsl(var(--navy) / 0.3);
   }
 
   /* Professional Card */
