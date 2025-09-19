@@ -15,50 +15,58 @@ const expertiseAreas = [
   {
     icon: Gavel,
     title: "Civil Law",
-    description: "Comprehensive civil litigation services with expertise in property disputes, contracts, and civil rights",
-    cases: "200+ Cases"
+    description: "Handling disputes related to property, contracts, and personal legal matters with expert representation in civil courts",
+    cases: "200+ Cases",
+    details: "Comprehensive civil litigation covering property disputes, breach of contract, tort claims, and civil rights violations"
   },
   {
     icon: Heart,
     title: "Divorce Law",
-    description: "Sensitive handling of matrimonial disputes, divorce proceedings, and family settlement matters",
-    cases: "150+ Cases"
+    description: "Providing compassionate and strategic counsel for divorce proceedings, custody battles, and related family matters",
+    cases: "150+ Cases",
+    details: "Sensitive handling of matrimonial disputes with focus on child custody, alimony, and property settlement"
   },
   {
     icon: FileText,
-    title: "138 N.I. Act",
-    description: "Expert representation in cheque bounce cases and Negotiable Instruments Act violations",
-    cases: "180+ Cases"
+    title: "Section 138 N.I. Act",
+    description: "Skilled in managing cases related to negotiable instruments, cheque bounce disputes, and recovery of dues",
+    cases: "180+ Cases",
+    details: "Expert representation in cheque dishonor cases with effective litigation strategies for recovery"
   },
   {
     icon: Briefcase,
     title: "Corporate & Commercial Law",
-    description: "Business legal solutions, corporate compliance, and commercial dispute resolution",
-    cases: "120+ Cases"
+    description: "Advising businesses on compliance, contracts, mergers, acquisitions, and dispute resolution for smooth operations",
+    cases: "120+ Cases",
+    details: "Complete business legal solutions including contract drafting, regulatory compliance, and commercial dispute resolution"
   },
   {
     icon: Shield,
     title: "Arbitration",
-    description: "Alternative dispute resolution through arbitration proceedings and mediation services",
-    cases: "80+ Cases"
+    description: "Facilitating alternative dispute resolution through arbitration to achieve faster, cost-effective conflict settlements",
+    cases: "80+ Cases",
+    details: "Private dispute resolution outside traditional court systems for commercial and contractual conflicts"
   },
   {
     icon: Gavel,
     title: "High Court Practice",
-    description: "Extensive experience in High Court litigation across various legal domains",
-    cases: "300+ Cases"
+    description: "Extensive experience in High Court litigation across various legal domains with proven track record",
+    cases: "300+ Cases",
+    details: "Comprehensive High Court representation in civil, criminal, constitutional, and commercial matters"
   },
   {
     icon: Users,
     title: "Supreme Court Practice",
-    description: "Specialized practice in Supreme Court of India with chamber in New Delhi",
-    cases: "50+ Cases"
+    description: "Specialized practice in Supreme Court of India with chamber in New Delhi for complex legal matters",
+    cases: "50+ Cases",
+    details: "Expert handling of appeals, constitutional matters, and special leave petitions at the apex court"
   },
   {
     icon: Home,
     title: "Property Law",
-    description: "Property documentation, title verification, and real estate legal services",
-    cases: "250+ Cases"
+    description: "Property documentation, title verification, and comprehensive real estate legal services",
+    cases: "250+ Cases",
+    details: "Complete property legal solutions including documentation, title disputes, and real estate transactions"
   }
 ];
 

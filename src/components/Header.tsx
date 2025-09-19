@@ -10,13 +10,14 @@ const Header = () => {
               <Scale className="h-8 w-8 text-gold" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gold">A.K BEHERA & ASSOCIATES</h1>
+              <h1 className="text-xl font-bold text-gold">AK</h1>
               <p className="text-xs text-muted-foreground">Advocate & Solicitors</p>
             </div>
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="#about" className="text-foreground hover:text-gold transition-colors">About</a>
             <a href="#expertise" className="text-foreground hover:text-gold transition-colors">Expertise</a>
+            <a href="#faq" className="text-foreground hover:text-gold transition-colors">FAQ</a>
             <a href="#contact" className="text-foreground hover:text-gold transition-colors">Contact</a>
           </nav>
         </div>

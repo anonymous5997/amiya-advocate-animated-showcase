@@ -20,15 +20,7 @@ const AwardModal = () => {
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogContent className="max-w-md p-0 bg-navy border-gold/30 overflow-hidden">
         <div className="relative">
-          {/* Close button */}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="absolute top-4 right-4 z-10 text-gold hover:text-gold-light hover:bg-gold/10"
-            onClick={() => setIsOpen(false)}
-          >
-            <X className="h-4 w-4" />
-          </Button>
+          {/* Close button - single X */}
           
           {/* Background decoration */}
           <div className="absolute inset-0 bg-gradient-to-br from-gold/10 via-transparent to-gold/5" />
@@ -50,11 +42,11 @@ const AwardModal = () => {
               No. 1 Advocate
             </h2>
             <h3 className="text-xl font-semibold text-foreground mb-4">
-              of Odisha
+              of India
             </h3>
             
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Recognized for outstanding legal expertise, exceptional client service, and unwavering commitment to justice across Odisha state.
+              Recognized for outstanding legal expertise, exceptional client service, and unwavering commitment to justice across India.
             </p>
             
             <div className="space-y-2 text-sm">

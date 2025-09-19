@@ -3,7 +3,7 @@ import { Award, Phone } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="about" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-navy-dark via-background to-navy-light opacity-90" />
       
@@ -13,7 +13,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center fade-in-up">
-          <div className="mb-6">
+          <div className="mb-6 relative z-10">
             <Award className="h-16 w-16 text-gold mx-auto mb-4 animate-bounce" />
           </div>
           

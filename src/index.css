@@ -7,44 +7,44 @@
 
 @layer base {
   :root {
-    /* Professional Legal Color Palette */
-    --background: 220 15% 8%;
-    --foreground: 45 100% 98%;
+    /* Modern Professional Color Palette */
+    --background: 210 20% 6%;
+    --foreground: 210 10% 98%;
 
-    --card: 220 15% 12%;
-    --card-foreground: 45 100% 95%;
+    --card: 210 15% 10%;
+    --card-foreground: 210 10% 95%;
 
-    --popover: 220 15% 10%;
-    --popover-foreground: 45 100% 95%;
+    --popover: 210 20% 8%;
+    --popover-foreground: 210 10% 95%;
 
-    --primary: 220 20% 15%;
-    --primary-foreground: 45 100% 98%;
+    --primary: 210 25% 12%;
+    --primary-foreground: 210 10% 98%;
 
-    --secondary: 45 85% 50%;
-    --secondary-foreground: 220 20% 15%;
+    --secondary: 27 96% 61%;
+    --secondary-foreground: 210 25% 12%;
 
-    --muted: 220 15% 20%;
-    --muted-foreground: 45 20% 70%;
+    --muted: 210 15% 18%;
+    --muted-foreground: 210 10% 65%;
 
-    --accent: 45 85% 55%;
-    --accent-foreground: 220 20% 15%;
+    --accent: 27 96% 61%;
+    --accent-foreground: 210 25% 12%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 15% 25%;
-    --input: 220 15% 20%;
-    --ring: 45 85% 50%;
+    --border: 210 15% 22%;
+    --input: 210 15% 18%;
+    --ring: 27 96% 61%;
 
     --radius: 0.75rem;
 
-    /* Legal Theme Specific Colors */
-    --gold: 45 85% 50%;
-    --gold-light: 45 90% 65%;
-    --gold-dark: 45 75% 35%;
-    --navy: 220 25% 12%;
-    --navy-light: 220 20% 18%;
-    --navy-dark: 220 30% 8%;
+    /* Modern Legal Theme Colors */
+    --gold: 27 96% 61%;
+    --gold-light: 27 100% 70%;
+    --gold-dark: 27 90% 45%;
+    --navy: 210 30% 8%;
+    --navy-light: 210 25% 15%;
+    --navy-dark: 210 35% 5%;
 
     /* Gradients */
     --gradient-hero: linear-gradient(135deg, hsl(var(--navy-dark)), hsl(var(--navy)));
