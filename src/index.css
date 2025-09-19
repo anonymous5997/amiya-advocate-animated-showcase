@@ -7,54 +7,54 @@
 
 @layer base {
   :root {
-    /* Navy Blue and White Professional Theme */
+    /* Premium Gold and White Professional Theme */
     --background: 0 0% 100%;
-    --foreground: 222 47% 11%;
+    --foreground: 45 93% 47%;
 
     --card: 0 0% 98%;
-    --card-foreground: 222 47% 11%;
+    --card-foreground: 45 93% 47%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover-foreground: 45 93% 47%;
 
-    --primary: 222 47% 11%;
+    --primary: 45 93% 47%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 98%;
-    --secondary-foreground: 222 47% 11%;
+    --secondary: 48 100% 96%;
+    --secondary-foreground: 45 93% 47%;
 
-    --muted: 210 40% 95%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 48 100% 95%;
+    --muted-foreground: 43 74% 66%;
 
-    --accent: 210 40% 98%;
-    --accent-foreground: 222 47% 11%;
+    --accent: 48 100% 96%;
+    --accent-foreground: 45 93% 47%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 222 47% 11%;
+    --border: 48 100% 91%;
+    --input: 48 100% 91%;
+    --ring: 45 93% 47%;
 
     --radius: 0.75rem;
 
-    /* Navy Blue Theme Colors */
-    --gold: 222 47% 11%;
-    --gold-light: 215 28% 17%;
-    --gold-dark: 222 84% 5%;
-    --navy: 222 47% 11%;
-    --navy-light: 215 28% 17%;
-    --navy-dark: 222 84% 5%;
+    /* Premium Gold Theme Colors */
+    --gold: 45 93% 47%;
+    --gold-light: 48 100% 67%;
+    --gold-dark: 42 100% 35%;
+    --navy: 45 93% 47%;
+    --navy-light: 48 100% 67%;
+    --navy-dark: 42 100% 35%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--navy)), hsl(var(--navy-light)));
-    --gradient-gold: linear-gradient(135deg, hsl(var(--navy-dark)), hsl(var(--navy)));
-    --gradient-section: linear-gradient(180deg, hsl(var(--background)), hsl(var(--navy-light)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--gold-light)));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold-dark)), hsl(var(--gold)));
+    --gradient-section: linear-gradient(180deg, hsl(var(--background)), hsl(var(--gold-light)));
 
     /* Shadows */
-    --shadow-elegant: 0 20px 40px -12px hsl(var(--navy) / 0.15);
-    --shadow-gold: 0 0 30px hsl(var(--navy) / 0.2);
-    --shadow-card: 0 10px 30px -8px hsl(var(--navy) / 0.1);
+    --shadow-elegant: 0 20px 40px -12px hsl(var(--gold) / 0.15);
+    --shadow-gold: 0 0 30px hsl(var(--gold) / 0.2);
+    --shadow-card: 0 10px 30px -8px hsl(var(--gold) / 0.1);
 
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
