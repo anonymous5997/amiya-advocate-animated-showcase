@@ -18,14 +18,15 @@ const AwardModal = () => {
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      <DialogContent className="max-w-md p-0 bg-navy border-gold/30 overflow-hidden">
+      <DialogContent className="max-w-md p-0 bg-royal-black/95 border-2 border-gold/50 overflow-hidden backdrop-blur-md">
         <div className="relative">
-          {/* Close button - single X */}
+          {/* Solid background overlay */}
+          <div className="absolute inset-0 bg-royal-black/90" />
           
           {/* Background decoration */}
-          <div className="absolute inset-0 bg-gradient-to-br from-gold/10 via-transparent to-gold/5" />
-          <div className="absolute -top-10 -right-10 w-32 h-32 bg-gold/10 rounded-full blur-2xl" />
-          <div className="absolute -bottom-10 -left-10 w-24 h-24 bg-gold/5 rounded-full blur-xl" />
+          <div className="absolute inset-0 bg-gradient-to-br from-gold/20 via-transparent to-gold/10" />
+          <div className="absolute -top-10 -right-10 w-32 h-32 bg-gold/20 rounded-full blur-2xl" />
+          <div className="absolute -bottom-10 -left-10 w-24 h-24 bg-gold/15 rounded-full blur-xl" />
           
           {/* Content */}
           <div className="relative p-8 text-center">
