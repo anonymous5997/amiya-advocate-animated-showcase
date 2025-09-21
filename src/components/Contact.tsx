@@ -32,7 +32,7 @@ const Contact = () => {
                   <h4 className="font-semibold text-foreground mb-2">Bhubaneswar Office</h4>
                   <p className="text-muted-foreground mb-3">
                     Plot-360, Damana Square<br />
-                    Bhubaneswar - 752021<br />
+                    Bhubaneswar - 751016<br />
                     Odisha, India
                   </p>
                   <div className="w-full h-48 rounded-lg overflow-hidden border border-gold/20">

@@ -1,4 +1,5 @@
 import { Scale, Heart } from "lucide-react";
+import AkLogo from "/Ak.png"; // adjust path as per your project structure
 
 const Footer = () => {
   return (
@@ -10,9 +11,10 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="p-2 bg-gold/10 rounded-lg">
-                <Scale className="h-6 w-6 text-gold" />
-              </div>
+              {/* <div className="p-2 bg-gold/10 rounded-lg"> */}
+                {/* Replace icon with logo */}
+                <img src={AkLogo} alt="AK Logo" className="h-17 w-12 object-contain" />
+              {/* </div> */}
               <div>
                 <h3 className="text-lg font-bold text-gold">A.K BEHERA & ASSOCIATES</h3>
                 <p className="text-xs text-muted-foreground">Advocate & Solicitors</p>

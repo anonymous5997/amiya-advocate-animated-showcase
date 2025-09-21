@@ -1,5 +1,5 @@
 import { Scale } from "lucide-react";
-import logo from "@/assets/logo.png";
+import Aklogo from "/Ak.png";
 
 const Header = () => {
   return (
@@ -7,9 +7,9 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="p-2 bg-gold/20 rounded-lg border border-gold/30">
-              <img src={logo} alt="Legal Logo" className="h-8 w-8" />
-            </div>
+            {/* <div className="p-2 bg-gold/20 rounded-lg border border-gold/30"> */}
+              <img src={Aklogo} alt="AK Logo" className="h-17 w-12" />
+            {/* </div> */}
             <div>
               <h1 className="text-xl font-bold text-gold font-playfair">A.K BEHERA & ASSOCIATES</h1>
               <p className="text-xs text-light-gray">Advocate & Solicitors</p>
