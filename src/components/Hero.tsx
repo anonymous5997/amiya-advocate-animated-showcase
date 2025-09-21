@@ -4,7 +4,7 @@ import advocateProfile from "@/assets/advocate-profile.jpg";
 
 const Hero = () => {
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-24 md:pt-20 bg-royal-black">
+    <section id="about" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-32 md:pt-20 bg-royal-black">
       {/* Royal gold accent lines */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold to-transparent opacity-60" />
       <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold to-transparent opacity-60" />
@@ -50,7 +50,7 @@ const Hero = () => {
               variant="default" 
               size="lg" 
               className="bg-gold hover:bg-gold-dark text-royal-black font-semibold px-8 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 glow-gold"
-              onClick={() => window.location.href = 'tel:+919437'}
+              onClick={() => window.location.href = 'tel:+919437147208'}
             >
               <Phone className="mr-2 h-5 w-5" />
               Schedule Consultation

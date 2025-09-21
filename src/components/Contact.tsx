@@ -30,19 +30,41 @@ const Contact = () => {
               <CardContent className="space-y-6">
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Bhubaneswar Office</h4>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground mb-3">
                     Plot-360, Damana Square<br />
                     Bhubaneswar - 752021<br />
                     Odisha, India
                   </p>
+                  <div className="w-full h-48 rounded-lg overflow-hidden border border-gold/20">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.6!2d85.8245!3d20.2961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190a0b0b0b0b0b%3A0x0!2sDamana%20Square%2C%20Bhubaneswar!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen={true}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    />
+                  </div>
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Delhi Office</h4>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground mb-3">
                     Chamber No. 28<br />
                     Supreme Court of India<br />
                     New Delhi, India
                   </p>
+                  <div className="w-full h-48 rounded-lg overflow-hidden border border-gold/20">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.3!2d77.2378!3d28.6258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd456c56c56c%3A0x0!2sSupreme%20Court%20of%20India!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen={true}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                    />
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -57,14 +79,14 @@ const Contact = () => {
               <CardContent className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Primary:</span>
-                  <a href="tel:+919437" className="text-foreground hover:text-gold transition-colors">
-                    +91 9437
+                  <a href="tel:+919437147208" className="text-foreground hover:text-gold transition-colors">
+                    +91 94371 47208
                   </a>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">WhatsApp:</span>
-                  <a href="https://wa.me/919437" className="text-foreground hover:text-gold transition-colors">
-                    +91 9437
+                  <a href="https://wa.me/919437147208" className="text-foreground hover:text-gold transition-colors">
+                    +91 94371 47208
                   </a>
                 </div>
               </CardContent>
@@ -139,12 +161,16 @@ const Contact = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 className="flex-1 bg-gold hover:bg-gold-light text-navy font-semibold py-3 border-0 shadow-lg hover:shadow-xl transition-all duration-300"
-                onClick={() => window.location.href = 'tel:+919437'}
+                onClick={() => window.location.href = 'tel:+919437147208'}
               >
                 <Phone className="mr-2 h-5 w-5" />
-                Call +91 9437
+                Call +91 94371 47208
               </Button>
-              <Button variant="outline" className="flex-1 border-gold text-gold hover:bg-gold/10 py-3 transition-all duration-300">
+              <Button 
+                variant="outline" 
+                className="flex-1 border-gold text-gold hover:bg-gold/10 py-3 transition-all duration-300"
+                onClick={() => window.open('https://maps.google.com/?q=Plot-360,+Damana+Square,+Bhubaneswar,+752021,+Odisha,+India', '_blank')}
+              >
                 <Navigation className="mr-2 h-5 w-5" />
                 Get Directions
               </Button>
