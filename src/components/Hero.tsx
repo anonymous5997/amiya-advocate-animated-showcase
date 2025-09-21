@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Advocate of High Court and Supreme Court delivering exceptional legal counsel with 15 years of expertise across multiple domains
+            Advocate of Hon'ble Supreme Court of India and High Court of Orissa delivering exceptional legal counsel with 15 years of expertise across multiple domains
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

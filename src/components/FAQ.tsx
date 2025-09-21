@@ -159,7 +159,7 @@ const FAQ = () => {
                 Schedule Consultation
               </Button>
               <Button variant="outline" className="border-gold text-gold hover:bg-gold/10">
-                Call +91 77354 47208
+                Call +91 9437147208
               </Button>
             </div>
           </Card>
