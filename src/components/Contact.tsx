@@ -57,20 +57,14 @@ const Contact = () => {
               <CardContent className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Primary:</span>
-                  <a href="tel:+917735447208" className="text-foreground hover:text-gold transition-colors">
-                    +91 77354 47208
-                  </a>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-muted-foreground">Secondary:</span>
-                  <a href="tel:+919437147208" className="text-foreground hover:text-gold transition-colors">
-                    +91 94371 47208
+                  <a href="tel:+919437" className="text-foreground hover:text-gold transition-colors">
+                    +91 9437
                   </a>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">WhatsApp:</span>
-                  <a href="https://wa.me/917735447208" className="text-foreground hover:text-gold transition-colors">
-                    +91 77354 47208
+                  <a href="https://wa.me/919437" className="text-foreground hover:text-gold transition-colors">
+                    +91 9437
                   </a>
                 </div>
               </CardContent>
@@ -117,29 +111,38 @@ const Contact = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-muted-foreground">Monday - Friday:</span>
-                  <span className="text-foreground">9:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-muted-foreground">Saturday:</span>
-                  <span className="text-foreground">9:00 AM - 2:00 PM</span>
+                  <span className="text-muted-foreground">Monday - Saturday:</span>
+                  <span className="text-foreground">9:00 AM - 8:00 PM</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Sunday:</span>
-                  <span className="text-foreground">Emergency Only</span>
+                  <span className="text-foreground">9:00 AM - 2:00 PM</span>
                 </div>
-                <div className="pt-4">
-                  <p className="text-sm text-muted-foreground">
-                    * Emergency consultations available 24/7 for urgent legal matters
-                  </p>
+                <div className="pt-4 border-t border-gold/20">
+                  <div className="text-center mb-3">
+                    <div className="text-lg font-semibold text-gold">Free Consultation Policy</div>
+                  </div>
+                  <div className="space-y-2 text-sm">
+                    <div className="flex items-center text-green-400">
+                      <span className="mr-2">✓</span>
+                      <span>Free consultation via Email & Phone</span>
+                    </div>
+                    <div className="flex items-center text-amber-400">
+                      <span className="mr-2">⚠</span>
+                      <span>Physical meetings are chargeable</span>
+                    </div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="flex-1 bg-gold hover:bg-gold-light text-navy font-semibold py-3 border-0 shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button 
+                className="flex-1 bg-gold hover:bg-gold-light text-navy font-semibold py-3 border-0 shadow-lg hover:shadow-xl transition-all duration-300"
+                onClick={() => window.location.href = 'tel:+919437'}
+              >
                 <Phone className="mr-2 h-5 w-5" />
-                Call +91 77354 47208
+                Call +91 9437
               </Button>
               <Button variant="outline" className="flex-1 border-gold text-gold hover:bg-gold/10 py-3 transition-all duration-300">
                 <Navigation className="mr-2 h-5 w-5" />

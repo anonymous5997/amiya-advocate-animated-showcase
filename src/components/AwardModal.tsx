@@ -57,7 +57,7 @@ const AwardModal = () => {
               </div>
               <div className="flex items-center justify-center text-gold">
                 <Award className="h-4 w-4 mr-2" />
-                500+ Successful Cases
+                1000+ Successful Cases
               </div>
               <div className="flex items-center justify-center text-gold">
                 <Award className="h-4 w-4 mr-2" />

@@ -36,9 +36,9 @@ const expertiseAreas = [
   {
     icon: Briefcase,
     title: "Corporate & Commercial Law",
-    description: "Advising businesses on compliance, contracts, mergers, acquisitions, and dispute resolution for smooth operations",
+    description: "Advising businesses on compliance, contracts, mergers, acquisitions, and dispute resolution. Notable client: Bridge & Roof Company",
     cases: "120+ Cases",
-    details: "Complete business legal solutions including contract drafting, regulatory compliance, and commercial dispute resolution"
+    details: "Complete business legal solutions including contract drafting, regulatory compliance, and commercial dispute resolution. Serving Bridge & Roof Company and other corporate clients"
   },
   {
     icon: Shield,
@@ -61,13 +61,6 @@ const expertiseAreas = [
     cases: "50+ Cases",
     details: "Expert handling of appeals, constitutional matters, and special leave petitions at the apex court"
   },
-  {
-    icon: Home,
-    title: "Property Law",
-    description: "Property documentation, title verification, and comprehensive real estate legal services",
-    cases: "250+ Cases",
-    details: "Complete property legal solutions including documentation, title disputes, and real estate transactions"
-  }
 ];
 
 const Expertise = () => {
