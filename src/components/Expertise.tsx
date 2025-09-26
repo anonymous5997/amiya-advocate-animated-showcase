@@ -25,32 +25,65 @@ const expertiseAreas = [
   {
     icon: Heart,
     title: "Family & Divorce Law",
-    description: "Expert divorce lawyers providing comprehensive family law services including child custody, alimony, and matrimonial asset division",
+    description: "In-depth expertise and powerful capabilities in family and divorce law. Expert divorce lawyers providing comprehensive family law services including child custody, alimony, and matrimonial asset division",
     cases: "150+ Cases",
-    details: "Complete family law solutions: Child custody & guardianship, maintenance & alimony, division of matrimonial assets, judicial separation, financial settlements, dowry & domestic violence cases",
+    details: "Divorce cases are a rollercoaster ride of unpredictable twists and turns. Even a seemingly simple divorce can turn into a high-stakes matter, which is why having expert divorce lawyers by your side is essential.",
     image: familyLawImage,
     specializations: [
+      "Divorce Proceedings & Mutual Settlement",
       "Child Custody & Guardianship",
       "Maintenance & Alimony",
       "Division of Matrimonial Assets", 
       "Judicial Separation",
-      "Domestic Violence Cases",
-      "Mutual Divorce Settlement"
+      "Financial Claims & Settlement",
+      "Dowry & Domestic Violence Cases",
+      "Mediation & Alternative Disputes"
+    ],
+    subServices: [
+      {
+        title: "Child Custody & Guardianship",
+        description: "The most difficult aspect of separation is deciding custody and guardianship. We can customize our services according to what is best for your children, whether you are a single parent or have joint legal custody."
+      },
+      {
+        title: "Maintenance & Alimony", 
+        description: "Expert spousal maintenance & alimony attorneys dedicated to helping you secure your divorce financial settlement and resolve maintenance payments."
+      },
+      {
+        title: "Division of Matrimonial Assets",
+        description: "Divorce assets division is never straightforward like 50:50 apportioning. It depends upon factors like earning capacity, living standard, children's responsibilities, marriage duration, etc."
+      },
+      {
+        title: "Judicial Separation",
+        description: "If you want separation from your partner without terminating the marriage for genuine personal reasons, our separation lawyer can help you receive the decree of Judicial Separation from the Family Court."
+      },
+      {
+        title: "Financial Claims & Settlement",
+        description: "In the event of a divorce, many couples find themselves facing difficulties during the financial transition. We help determine an equitable solution that can be mutually beneficial for both spouses."
+      },
+      {
+        title: "Mediation & Alternative Disputes",
+        description: "Mediation is an attempt to come to a mutually agreed resolution without involving the court. Our divorce lawyer acts as a mediator and represents the interests of our client during mediation."
+      },
+      {
+        title: "Dowry & Domestic Violence",
+        description: "Domestic abuse can manifest in physical, psychological, biological, emotional, and financial abuse. We handle domestic abuse cases affecting men, women, and children of different ages, cultures, and backgrounds."
+      }
     ]
   },
   {
     icon: FileText,
     title: "Section 138 N.I. Act (Cheque Dishonour)",
-    description: "Specialized expertise in negotiable instruments law, cheque bounce cases, and effective recovery strategies",
+    description: "Specialized expertise in negotiable instruments law, cheque bounce cases, and effective recovery strategies with proven track record",
     cases: "180+ Cases",
-    details: "Expert representation in cheque dishonor cases under Section 138 of Negotiable Instruments Act with proven recovery track record",
+    details: "Expert representation in cheque dishonor cases under Section 138 of Negotiable Instruments Act with proven recovery track record and effective litigation strategies",
     image: chequeDisImage,
     specializations: [
       "Cheque Bounce Cases",
       "Negotiable Instruments Law",
       "Recovery Proceedings",
       "Section 138 Litigation",
-      "Settlement Negotiations"
+      "Settlement Negotiations",
+      "Due Recovery Strategies"
     ]
   },
   {
@@ -173,6 +206,39 @@ const Expertise = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+        
+        {/* Detailed Family Law Services Section */}
+        <div className="mt-20 fade-in-up">
+          <div className="text-center mb-12">
+            <Badge variant="outline" className="mb-4 text-gold border-gold">
+              Comprehensive Family Law Services
+            </Badge>
+            <h3 className="text-3xl md:text-4xl font-bold mb-6">
+              <span className="text-gradient-gold">Family & Divorce Law Expertise</span>
+            </h3>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Our comprehensive family law practice covers all aspects of matrimonial disputes with sensitivity, expertise, and dedication to achieving the best outcomes for our clients and their families.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {expertiseAreas.find(area => area.title === "Family & Divorce Law")?.subServices?.map((service, index) => (
+              <Card key={service.title} className={`card-elegant border-border hover:border-gold/50 transition-all duration-300 hover:scale-105 fade-in-up delay-${index * 150}`}>
+                <CardHeader>
+                  <CardTitle className="text-lg text-gold flex items-center space-x-2">
+                    <Heart className="h-5 w-5" />
+                    <span>{service.title}</span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm leading-relaxed">
+                    {service.description}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
         
         <div className="text-center mt-16 fade-in-up">
