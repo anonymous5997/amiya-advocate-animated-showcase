@@ -10,9 +10,6 @@ import {
   Car,
   Heart
 } from "lucide-react";
-import familyLawImage from "@/assets/family-law-expertise.jpg";
-import chequeDisImage from "@/assets/cheque-dishonour-expertise.jpg";
-import alimonyImage from "@/assets/alimony-expertise.jpg";
 
 const expertiseAreas = [
   {
@@ -28,7 +25,6 @@ const expertiseAreas = [
     description: "In-depth expertise and powerful capabilities in family and divorce law. Expert divorce lawyers providing comprehensive family law services including child custody, alimony, and matrimonial asset division",
     cases: "150+ Cases",
     details: "Divorce cases are a rollercoaster ride of unpredictable twists and turns. Even a seemingly simple divorce can turn into a high-stakes matter, which is why having expert divorce lawyers by your side is essential.",
-    image: familyLawImage,
     specializations: [
       "Divorce Proceedings & Mutual Settlement",
       "Child Custody & Guardianship",
@@ -76,7 +72,6 @@ const expertiseAreas = [
     description: "Specialized expertise in negotiable instruments law, cheque bounce cases, and effective recovery strategies with proven track record",
     cases: "180+ Cases",
     details: "Expert representation in cheque dishonor cases under Section 138 of Negotiable Instruments Act with proven recovery track record and effective litigation strategies",
-    image: chequeDisImage,
     specializations: [
       "Cheque Bounce Cases",
       "Negotiable Instruments Law",
@@ -138,51 +133,25 @@ const Expertise = () => {
           {expertiseAreas.map((area, index) => (
             <Card 
               key={area.title}
-              className={`group card-elegant border-border hover:border-gold/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl fade-in-up delay-${index * 100} overflow-hidden`}
+              className={`group card-elegant border-border hover:border-gold/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl fade-in-up delay-${index * 100}`}
             >
-              {/* Premium Image Header for featured areas */}
-              {area.image && (
-                <div className="relative h-48 overflow-hidden">
-                  <img 
-                    src={area.image} 
-                    alt={area.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                  <div className="absolute bottom-4 left-4 right-4">
-                    <div className="flex items-center space-x-2 mb-2">
-                      <div className="p-2 bg-gold/20 backdrop-blur-sm rounded-lg border border-gold/30">
-                        <area.icon className="h-6 w-6 text-gold" />
-                      </div>
-                      <Badge variant="secondary" className="bg-gold/90 text-black border-0 font-semibold">
-                        {area.cases}
-                      </Badge>
-                    </div>
-                    <h3 className="text-white font-bold text-lg leading-tight">{area.title}</h3>
-                  </div>
+              <CardHeader className="text-center pb-4">
+                <div className="mx-auto mb-4 p-3 bg-gold/10 rounded-lg w-fit group-hover:bg-gold/20 transition-colors">
+                  <area.icon className="h-8 w-8 text-gold" />
                 </div>
-              )}
+                <CardTitle className="text-lg text-foreground group-hover:text-gold transition-colors">{area.title}</CardTitle>
+              </CardHeader>
               
-              {/* Standard Header for areas without images */}
-              {!area.image && (
-                <CardHeader className="text-center pb-4">
-                  <div className="mx-auto mb-4 p-3 bg-gold/10 rounded-lg w-fit group-hover:bg-gold/20 transition-colors">
-                    <area.icon className="h-8 w-8 text-gold" />
-                  </div>
-                  <CardTitle className="text-lg text-foreground group-hover:text-gold transition-colors">{area.title}</CardTitle>
-                </CardHeader>
-              )}
-              
-              <CardContent className={`${area.image ? 'pt-4' : 'text-center'}`}>
+              <CardContent className="text-center">
                 <p className="text-muted-foreground mb-4 text-sm leading-relaxed">
                   {area.description}
                 </p>
                 
-                {/* Show specializations for premium areas */}
+                {/* Show specializations for detailed areas */}
                 {area.specializations && (
                   <div className="mb-4">
                     <h4 className="text-xs font-semibold text-gold mb-2 uppercase tracking-wide">Key Specializations:</h4>
-                    <div className="flex flex-wrap gap-1">
+                    <div className="flex flex-wrap gap-1 justify-center">
                       {area.specializations.slice(0, 3).map((spec, idx) => (
                         <Badge key={idx} variant="outline" className="text-xs border-gold/30 text-muted-foreground">
                           {spec}
@@ -197,12 +166,9 @@ const Expertise = () => {
                   </div>
                 )}
                 
-                {/* Cases badge for areas without images */}
-                {!area.image && (
-                  <Badge variant="secondary" className="bg-gold/20 text-gold border-0 group-hover:bg-gold/30 transition-colors">
-                    {area.cases}
-                  </Badge>
-                )}
+                <Badge variant="secondary" className="bg-gold/20 text-gold border-0 group-hover:bg-gold/30 transition-colors">
+                  {area.cases}
+                </Badge>
               </CardContent>
             </Card>
           ))}
