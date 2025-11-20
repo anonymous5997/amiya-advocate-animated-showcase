@@ -138,7 +138,7 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Sunday:</span>
-                  <span className="text-foreground">9:00 AM - 2:00 PM</span>
+                  <span className="text-foreground">Closed</span>
                 </div>
                 <div className="pt-4 border-t border-gold/20">
                   <div className="text-center mb-3">
